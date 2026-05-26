@@ -1,3 +1,31 @@
 header{
     background-color: rgb(24, 24, 24);
 }
+#header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    height: 90px;
+    width: auto; 
+    margin-right: 5px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color:#E07800 ;
+    gap: 50px;
+    font-family: sans-serif;
+    padding: 5px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 5px;
+    padding: 5px 5px;
+    
+}
