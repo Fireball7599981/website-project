@@ -118,3 +118,12 @@ footer hr{
     font-size:larger;
     color: #E07800;
 }
+.content-login{
+    gap: 10px;
+    width:25%;
+    background-color: #E07800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
