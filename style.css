@@ -27,7 +27,6 @@ nav a{
     background-color: rgb(24, 24, 24);
     border-radius: 5px;
     padding: 5px 5px;
-    
 }
 .content-home{
     display: flex;
@@ -101,7 +100,6 @@ footer hr{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 .content2-sessions-text{
     font-family: sans-serif;
     display: flex;
@@ -109,7 +107,6 @@ footer hr{
     align-items: center;
     justify-content: center;
 }
-
 .content2-sessions img{
     height: 462px;
     width: 616px;
@@ -120,10 +117,23 @@ footer hr{
 }
 .content-login{
     gap: 10px;
-    width:25%;
+    width:400px;
+    height:500px;
     background-color: #E07800;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    justify-content: flex-start;
+}
+.content-Signup{
+    gap: 10px;
+    width:400px;
+    height:500px;
+    background-color: #E07800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
 }
